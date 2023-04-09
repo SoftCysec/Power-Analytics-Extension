@@ -1,0 +1,24 @@
+{
+  "name": "power-analytics",
+  "version": "1.0.0",
+  "description": "analyse data and turn them into charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SoftCysec/Power-Analytics-Extension.git"
+  },
+  "author": "Okware Dedan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftCysec/Power-Analytics-Extension/issues"
+  },
+  "homepage": "https://github.com/SoftCysec/Power-Analytics-Extension#readme",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^114.0.0"
+  }
+}
